@@ -1,7 +1,7 @@
 // base css file
-import 'libs/ui/src/assets/css/scrollbar.css';
-import 'libs/ui/src/assets/css/globals.css';
-import 'libs/ui/src/assets/css/fonts.css';
+import '@defi-token/ui/assets/css/scrollbar.css';
+import '@defi-token/ui/assets/css/globals.css';
+import '@defi-token/ui/assets/css/fonts.css';
 import { useToastStore } from '@defi-token/ui';
 import {
   ConnectButton,
