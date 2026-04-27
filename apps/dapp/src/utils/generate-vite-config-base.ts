@@ -44,7 +44,9 @@ export function generateViteConfigBase(
 
     resolve: {
       alias: {
+        // keep legacy path for any direct imports but prefer package alias
         'libs/ui/src': path.resolve(modulePath, '../../libs/ui/src'),
+        '@defi-token/ui': path.resolve(modulePath, '../../libs/ui/src/lib'),
         'libs/blockchain/src': path.resolve(
           modulePath,
           '../../libs/blockchain/src'

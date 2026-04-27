@@ -1,4 +1,4 @@
-import DTM from 'libs/ui/src/assets/images/DTM.png';
+import DTM from '@defi-token/ui/assets/images/DTM.png';
 import { useWallet } from '@defi-token/blockchain';
 import { useNavigate } from 'react-router';
 import { useEffect } from 'react';

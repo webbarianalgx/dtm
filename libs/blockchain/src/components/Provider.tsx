@@ -4,7 +4,7 @@ import { Config, WagmiProvider } from 'wagmi';
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { config as wagmiConfig, rainbowConfig } from '../config';
 import '@rainbow-me/rainbowkit/styles.css';
-import Toast from 'libs/ui/src/components/alerts/toast';
+import Toast from '@defi-token/ui/components/alerts/toast';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { ProviderType, useProviderStore } from '../store/useProviderStore';
 

@@ -1,5 +1,5 @@
-import ErrorLightImage from 'libs/ui/src/assets/images/404-light.svg';
-import ErrorDarkImage from 'libs/ui/src/assets/images/404-dark.svg';
+import ErrorLightImage from '@defi-token/ui/assets/images/404-light.svg';
+import ErrorDarkImage from '@defi-token/ui/assets/images/404-dark.svg';
 import { Button, useIsMounted, useTheme } from '@defi-token/ui';
 import { useWallet } from '@defi-token/blockchain';
 import { useNavigate } from 'react-router';

@@ -20,7 +20,9 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      // alias for UI library; retain legacy path if needed
       'libs/ui/src': path.resolve(__dirname, '../ui/src'),
+      '@defi-token/ui': path.resolve(__dirname, '../ui/src/lib'),
       'libs/blockchain/src': path.resolve(__dirname, '../blockchain/src'),
       'libs/contracts/src': path.resolve(__dirname, '../contracts/src'),
     },

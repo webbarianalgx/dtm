@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { storage } from '../libs/local-storage';
+import { storage } from '../utils/local-storage';
 import {
   defaultColorPreset,
   defaultMode,
